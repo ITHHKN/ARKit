@@ -51,11 +51,11 @@ NOTE: ARConfiguration is an abstract class; you do not create or work with insta
 
  There are three supported configurations. 
 
-1- ARWorldTrackingConfiguration It provides motion tracking like rotation of the device, position, plane detection and hit testing
+1- **ARWorldTrackingConfiguration** It provides motion tracking like rotation of the device, position, plane detection and hit testing
 
-2 - AROrientationTrackingConfiguration is a simpler configuration and it allows three degrees of tracking freedom. It detects only the device rotation
+2 - **AROrientationTrackingConfiguration** is a simpler configuration and it allows three degrees of tracking freedom. It detects only the device rotation
 
-3 - ARFaceTrackingConfiguration on the other hand uses the front camera of the phone. It is used to track the movement and expression of the face of the user.
+3 - **ARFaceTrackingConfiguration** on the other hand uses the front camera of the phone. It is used to track the movement and expression of the face of the user.
 
 ## Frames
 A running AR session continuously captures video frames from the device camera. ARKit analyse every individual frame and provides a ARFrame object which contains a captured image, detailed tracking and camera position/orientation.
@@ -74,27 +74,27 @@ ARKit uses the camera sensor to estimate the total amount of light available in 
 ## Apps use ARKit?
 It’s early days for ARKit. However, there are already lots of apps showing off what it can do.Few of the best are
 
-1- Pokémon Go is probably the biggest game that uses ARKit right now.
+1- **Pokémon Go** is probably the biggest game that uses ARKit right now.
 
 
 
 
-2- The Machines is a multi-player RTS game that lets several people play in the same AR environment.
+2- **The Machines** is a multi-player RTS game that lets several people play in the same AR environment.
 
 
 
 
-3- Skyguide is a very neat astronomy app that pastes constellations onto the sky
+3- **Skyguide** is a very neat astronomy app that pastes constellations onto the sky
 
 
 
 
-4- ModiFace 3D lets you see how you’d look with a different hair colour.
+4- **ModiFace 3D** lets you see how you’d look with a different hair colour.
 
 
 
 
-5- ARZombie is a classic example of an AR game. It puts you in a zombie home invasion scenario, 3D-modelled undead breaking in and attacking.
+5- **RZombie** is a classic example of an AR game. It puts you in a zombie home invasion scenario, 3D-modelled undead breaking in and attacking.
 
 
 
